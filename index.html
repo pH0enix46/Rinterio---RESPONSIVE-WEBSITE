@@ -17,7 +17,7 @@
     <link rel="shortcut icon" href="assets/fav.png" type="image/x-icon" />
     <!-- ⛔️⛔️⛔️ -->
 
-    <!-- TAILWIND-CSS✅✅✅ -->
+    <!-- CSS✅✅✅ -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
       rel="stylesheet"
@@ -44,5 +44,173 @@
   <!-- written by (MD Joy)🧡💛💚 🧡💛💚 🧡💛💚 🧡💛💚 🧡💛💚 🧡💛💚 🧡💛💚 🧡💛💚 🧡💛💚 🧡💛💚 -->
   <!--                -->
 
-  <body></body>
+  <body class="font-rubik text-[#444]">
+    <!-- HEADER✅✅✅ -->
+    <header class="mt-4">
+      <nav class="md:px-2">
+        <div class="navbar bg-base-100 flex items-center">
+          <div class="navbar-start w-0 flex-1">
+            <a class="text-3xl flex items-center gap-1.5 font-semibold">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="3"
+                stroke="currentColor"
+                class="size-6 w-8 h-8 bg-[#ABEF5F] p-2 rounded-full cursor-pointer"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
+              </svg>
+
+              Rinterio
+            </a>
+          </div>
+
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 items-center">
+              <li><a class="font-bold text-base">Home</a></li>
+              <li><a class="text-gray-500 font-medium">Services</a></li>
+              <li><a class="text-gray-500 font-medium">Portfolio</a></li>
+              <li><a class="text-gray-500 font-medium">Blogs</a></li>
+              <li><a class="text-gray-500 font-medium">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="navbar-end gap-2 w-0 flex-1">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6 p-1.5 bg-gray-100 rounded-full border-2 w-9 h-9 cursor-pointer hidden md:flex md:items-center"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+              />
+            </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6 p-1.5 bg-gray-100 rounded-full border-2 w-9 h-9 cursor-pointer hidden md:flex md:items-center"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+              />
+            </svg>
+
+            <a class="btn bg-[#ABEF5F] hidden md:flex md:items-center">
+              Book Consult
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="3"
+                stroke="currentColor"
+                class="size-6 w-8 h-8 bg-slate-700 p-2 rounded-full cursor-pointer text-gray-200"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
+              </svg>
+            </a>
+
+            <div class="dropdown">
+              <div
+                tabindex="0"
+                role="button"
+                class="btn btn-ghost lg:hidden hover:bg-white"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  class="size-8 bg-gray-200 p-2.5 rounded-full h-12 w-12"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0"
+              >
+                <li><a class="font-bold text-base">Home</a></li>
+                <li><a class="text-gray-500 font-medium">Services</a></li>
+                <li><a class="text-gray-500 font-medium">Portfolio</a></li>
+                <li><a class="text-gray-500 font-medium">Blogs</a></li>
+                <li><a class="text-gray-500 font-medium">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ⛔️⛔️⛔️ -->
+
+    <main class="md:container mx-auto px-2">
+      <!-- HERO✅✅✅ -->
+      <section class="mt-8">
+        <div class="hero bg-base-200 min-h-screen bg-white">
+          <div class="hero-content text-center">
+            <div class="flex items-center flex-col">
+              <img
+                src="assets/banner.png"
+                alt="Banner"
+                class="lg:w-8/12 w-11/12"
+              />
+              <h1 class="text-4xl md:text-5xl font-bold w-full md:mt-20 mt-10">
+                A barn house of this design has a striking appearance
+              </h1>
+              <p class="py-6 text-gray-500 md:w-4/5">
+                The design of this barn house is striking and memorable. Its
+                blend of classic barn features with contemporary style creates a
+                visually stunning and unique appearance that stands out in any
+                setting
+              </p>
+              <button
+                class="btn btn-primary bg-[#ABEF5F80] border-none text-slate-800 text-base hover:bg-green-300"
+              >
+                View Details
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="3"
+                  stroke="currentColor"
+                  class="size-6 w-8 h-8 bg-[#ABEF5F] p-2 rounded-full cursor-pointer"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ⛔️⛔️⛔️ -->
+    </main>
+  </body>
 </html>
