@@ -1,0 +1,2 @@
+# Ignore DS_Store files (It's a default behavior for Mac)
+.DS_Store
